@@ -17,6 +17,10 @@ public class PlayerController : MonoBehaviour
         instance = this;
     }
 
+    void Start()
+    {
+        //moveSpeed = PlayerStatController.instance.moveSpeed[0].value;
+    }
     // Update is called once per frame
     void Update()
     {
